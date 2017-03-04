@@ -8,10 +8,16 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+       
         <title>JSP Page</title>
     </head>
     <body>
         <h1>Hello World!</h1>
+        <form action="autenticar" method="post">
+        <input type="text" name="login" placeholder="login" id="textLogin"/>
+        <input type="text" name="password"placeholder="password" id="textLogin"/>
+        <input type="submit" value="Ingresar a oracle"/>
+       
+        </form>
     </body>
 </html>
